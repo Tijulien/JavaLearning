@@ -1,0 +1,12 @@
+package com.JB.parking;
+
+public class VehicleDimension {
+
+	public static void main(String[] args) {
+int length = 180;
+int width = 120;
+int surface = length * width;
+System.out.println("La surface du véhicule est : " +surface);
+	}
+
+}

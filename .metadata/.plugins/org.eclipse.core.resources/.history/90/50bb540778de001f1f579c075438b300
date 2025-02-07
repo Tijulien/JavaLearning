@@ -1,0 +1,18 @@
+package com.JB.parking;
+
+public class VehicleDimension {
+
+	public static void main(String[] args) {
+int length = 180;
+int width = 120;
+int surface = length * width;
+int perimeter = (length + width) * 2;
+int difference = length - width;
+float ratio = (float)width / length;
+System.out.println("La surface du véhicule est de : " +surface);
+System.out.println("Le périmètre du véhicule est de : " +perimeter);
+System.out.println("La différence est de :"+difference);
+System.out.println("Le ration est de : "+ratio);
+	}
+
+}
