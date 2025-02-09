@@ -1,13 +1,8 @@
 package com.JB.parking;
 
-public class VehicleDimension {
-
-	public static void main(String[] args) {
-int length = 310;
-int width = 210;
-System.out.println(length);
-System.out.println(width);
-
-	}
-
+public class ParcBot {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
 }
+
